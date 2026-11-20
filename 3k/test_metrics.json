@@ -1,0 +1,47 @@
+{
+  "Model_A_Baseline": {
+    "best_epoch": 10,
+    "best_val_cider_raw": 2.2348514651544344,
+    "test_metrics_raw": {
+      "Bleu_1": 0.680873709435066,
+      "Bleu_2": 0.5565753834870552,
+      "Bleu_3": 0.46562648591120953,
+      "Bleu_4": 0.39551183833301234,
+      "METEOR": 0.5861213192191937,
+      "ROUGE_L": 0.5832967713206011,
+      "CIDEr": 2.1581710629203137,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_B_Retrieval_Only": {
+    "best_epoch": 8,
+    "best_val_cider_raw": 2.342538323857196,
+    "test_metrics_raw": {
+      "Bleu_1": 0.7015272394303321,
+      "Bleu_2": 0.5814045440700158,
+      "Bleu_3": 0.49325601079942644,
+      "Bleu_4": 0.42614813142012387,
+      "METEOR": 0.6074574318188362,
+      "ROUGE_L": 0.6015581821418658,
+      "CIDEr": 2.328271078260344,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_C_Full_ViPCap": {
+    "best_epoch": 10,
+    "best_val_cider_raw": 2.3227556206678277,
+    "test_metrics_raw": {
+      "Bleu_1": 0.698140255210341,
+      "Bleu_2": 0.5830758820992848,
+      "Bleu_3": 0.4990443373529685,
+      "Bleu_4": 0.43263271784151625,
+      "METEOR": 0.6081952320406863,
+      "ROUGE_L": 0.6040308855015993,
+      "CIDEr": 2.257577989608117,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  }
+}

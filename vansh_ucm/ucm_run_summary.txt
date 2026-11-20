@@ -1,0 +1,48 @@
+Dataset: UCM | Timestamp: 2026-11-20T00:29:12.138795
+{
+  "Model_A_Baseline": {
+    "best_epoch": 16,
+    "best_val_cider_raw": 4.35332720615013,
+    "test_metrics_raw": {
+      "Bleu_1": 0.9103438315322758,
+      "Bleu_2": 0.8723052535426474,
+      "Bleu_3": 0.8385229035232726,
+      "Bleu_4": 0.810100925682759,
+      "METEOR": 0.8758200576184364,
+      "ROUGE_L": 0.8825679167834646,
+      "CIDEr": 4.236409852215824,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_B_Retrieval_Only": {
+    "best_epoch": 18,
+    "best_val_cider_raw": 4.603500369918452,
+    "test_metrics_raw": {
+      "Bleu_1": 0.9317821054900389,
+      "Bleu_2": 0.9059648655902889,
+      "Bleu_3": 0.8806231082699914,
+      "Bleu_4": 0.8576636075990471,
+      "METEOR": 0.9008868863111561,
+      "ROUGE_L": 0.9054177752567593,
+      "CIDEr": 4.478005898766448,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_C_Full_ViPCap": {
+    "best_epoch": 3,
+    "best_val_cider_raw": 4.625234069580059,
+    "test_metrics_raw": {
+      "Bleu_1": 0.9275140235503402,
+      "Bleu_2": 0.9012527267872031,
+      "Bleu_3": 0.8760017170224385,
+      "Bleu_4": 0.8533192252603508,
+      "METEOR": 0.8954040802162031,
+      "ROUGE_L": 0.8999583040065775,
+      "CIDEr": 4.481254530320673,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  }
+}

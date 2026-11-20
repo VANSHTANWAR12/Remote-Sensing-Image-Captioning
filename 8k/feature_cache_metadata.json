@@ -1,0 +1,19 @@
+{
+  "total_verified_files": 8000,
+  "model_name": "ViT-H-14",
+  "checkpoint_sha256": "62a3e79df886875976901b4a9b8d6a1c42b457879a5ce625c8eba9460cbc3a11",
+  "extraction_layers": [
+    10,
+    21,
+    31
+  ],
+  "concat_order": "channels_10_21_31",
+  "feature_shape": [
+    256,
+    3840
+  ],
+  "dtype": "float32",
+  "dataset_fingerprint": "ace1800c0fc39fc56d5908afab7e90351535fa2a50375d1d45532b91f40aff98",
+  "annotation_fingerprint": "8426971ecffa329330eddfc23d1eb200983f50270a8b3d911beecb6157afa35a",
+  "cache_schema_version": "2.0.0"
+}

@@ -1,0 +1,28 @@
+# Checkpoints & Model Weights (Large binary files)
+checkpoints/
+ckpt/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Training Data, Feature Caches & Datasets
+features/
+*.h5
+*.hdf5
+
+# Cache, Environments & Checkpoints
+.cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+
+
+# OS and Environment Credentials
+.env
+*.env
+*.token
+*.key
+.DS_Store
+Thumbs.db

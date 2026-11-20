@@ -1,0 +1,32 @@
+{
+  "Model_B_Retrieval_Only": {
+    "best_epoch": 6,
+    "best_val_cider_raw": 2.474008274751188,
+    "test_metrics_raw": {
+      "Bleu_1": 0.7060398713581753,
+      "Bleu_2": 0.5857729349755257,
+      "Bleu_3": 0.4921736410280321,
+      "Bleu_4": 0.42059259077611694,
+      "METEOR": 0.5938143718733673,
+      "ROUGE_L": 0.5933631706046067,
+      "CIDEr": 2.2361691214718977,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_C_Full_ViPCap": {
+    "best_epoch": 10,
+    "best_val_cider_raw": 2.511813866833493,
+    "test_metrics_raw": {
+      "Bleu_1": 0.7035877770562984,
+      "Bleu_2": 0.5812830082507238,
+      "Bleu_3": 0.49214895216901566,
+      "Bleu_4": 0.42365823748845216,
+      "METEOR": 0.6016126077891814,
+      "ROUGE_L": 0.5901045723845978,
+      "CIDEr": 2.274912249649135,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  }
+}

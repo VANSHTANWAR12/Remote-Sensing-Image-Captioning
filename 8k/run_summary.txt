@@ -1,0 +1,52 @@
+Retrieval-Enhanced HATNet Run Summary
+Timestamp: 2026-11-15T20:15:55.509654
+Dataset Fingerprint: ace1800c0fc39fc56d5908afab7e90351535fa2a50375d1d45532b91f40aff98
+Split Fingerprint: cad09353008569bb7edf3269faaccb603fd9363b120306d0252ce8f17dd60fbd
+Evaluator Version: 1.0.0-fixed-karpathy-coco
+{
+  "Model_A_Baseline": {
+    "best_epoch": 7,
+    "best_val_cider_raw": 2.4861524712670544,
+    "test_metrics_raw": {
+      "Bleu_1": 0.7291355885627006,
+      "Bleu_2": 0.6129891556755133,
+      "Bleu_3": 0.5277082347679432,
+      "Bleu_4": 0.46397486316613146,
+      "METEOR": 0.6198296623330207,
+      "ROUGE_L": 0.6257075095558691,
+      "CIDEr": 2.5447130668015125,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_B_Retrieval_Only": {
+    "best_epoch": 7,
+    "best_val_cider_raw": 2.5478016224302147,
+    "test_metrics_raw": {
+      "Bleu_1": 0.725150237496199,
+      "Bleu_2": 0.6141012094031135,
+      "Bleu_3": 0.530887049677528,
+      "Bleu_4": 0.4681315634362095,
+      "METEOR": 0.6219523814753726,
+      "ROUGE_L": 0.6330281096494491,
+      "CIDEr": 2.563437614889326,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  },
+  "Model_C_Full_ViPCap": {
+    "best_epoch": 4,
+    "best_val_cider_raw": 2.622273595799844,
+    "test_metrics_raw": {
+      "Bleu_1": 0.7364724247082858,
+      "Bleu_2": 0.6247984544272306,
+      "Bleu_3": 0.5421424322249203,
+      "Bleu_4": 0.47929093214936774,
+      "METEOR": 0.6350278603005559,
+      "ROUGE_L": 0.6360216183067694,
+      "CIDEr": 2.594589485464481,
+      "SPICE": null,
+      "SPICE_error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    }
+  }
+}

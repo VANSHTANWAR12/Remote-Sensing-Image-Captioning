@@ -1,0 +1,10 @@
+{
+  "memory_size": 7000,
+  "memory_mode": "multiscale_b21_b31_mean_max",
+  "top_k": 6,
+  "similarity": "cosine",
+  "temperature": 0.05,
+  "score_threshold": -1.0,
+  "train_ids_sha256": "792c4eb99ac58a4ec48b2880f7e656310c899da3d852727d604dd979a4a0f719",
+  "contains_val_or_test": false
+}

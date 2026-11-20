@@ -1,0 +1,8 @@
+{
+  "dataset": "ucm",
+  "memory_size": 1680,
+  "memory_mode": "multiscale_b21_b31_mean_max",
+  "top_k": 6,
+  "temperature": 0.05,
+  "contains_val_or_test": false
+}
