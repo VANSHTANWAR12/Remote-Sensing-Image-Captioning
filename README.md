@@ -58,7 +58,37 @@ vansh/
 └── README.md                   # Project documentation
 ```
 
+### Automatic Dataset Download & Preparation
+
+**No manual dataset downloads are required.** All experiments are designed to run directly through their respective Jupyter notebooks (`.ipynb`).
+
+Each notebook automatically handles dataset downloading and preparation, allowing users to reproduce the experiments without manually configuring dataset files.
+
+**Automated Workflow:**
+
+1. **Dataset Download:** The notebook automatically downloads the required RSICD or UCM dataset when executed.
+2. **Data Preparation:** Downloaded images and captions are organized into the required directory structure.
+3. **Dataset Splitting:** Training, validation, and testing subsets are prepared according to the experiment's configuration.
+4. **Feature Extraction:** The pretrained ViT-H-14 backbone extracts multi-scale visual features.
+5. **Retrieval Memory Construction:** Visual-semantic representations are cached for nearest-neighbor retrieval.
+6. **Model Training:** Baseline HATNet, retrieval-only, and full ViPCap configurations are trained and evaluated.
+7. **Performance Evaluation:** The notebook generates captions and computes BLEU, METEOR, ROUGE-L, and CIDEr scores.
+
+###  Running the Experiments
+
+Open the corresponding Jupyter notebook and select **Run All** to execute the complete experiment pipeline.
+
+| Experiment | Jupyter Notebook |
+|---|---|
+| RSICD – 3,000 Images | `3k/HATnet.ipynb` |
+| RSICD – 5,000 Images | `5k/HATnet (2).ipynb` |
+| RSICD – 8,000 Images | `8k/HATnet (3).ipynb` |
+| UCM – 2,100 Images | Notebook available in `vansh_ucm/` |
+
+**Note:** An internet connection is required for the initial dataset download and pretrained model initialization. Dataset preparation, feature extraction, training, and evaluation are performed within the notebooks. Execution time and hardware requirements depend on the selected experiment and dataset size.
+
 ---
+
 
 ## 📊 Experimental Results
 
