@@ -186,6 +186,16 @@ Each folder contains its self-contained Jupyter notebook to run feature caching,
 - For 8k RSICD: Open and execute `8k/HATnet (3).ipynb`
 - For UCM: Open and run the corresponding script / notebook in `vansh_ucm/`
 
+Execution Evidence and Experimental Records
+
+To ensure transparency and verifiability, the repository includes supporting evidence of model execution and experimentation:
+
+Jupyter Notebooks: Contain training workflows, execution outputs, evaluation procedures, and experimental results.
+
+JSON Files: Preserve relevant experimental records, configurations, evaluation metrics, and execution results.
+
+Result Documentation: Includes recorded outputs and performance comparisons from the conducted experiments.
+
 ### 3. Outputs & Metrics
 Each run generates:
 - `configuration.json`: Full serialized hyperparameters.
