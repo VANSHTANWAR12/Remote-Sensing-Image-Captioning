@@ -163,6 +163,21 @@ Make sure PyTorch and required evaluation libraries are installed:
 ```bash
 pip install torch torchvision numpy scipy nltk scikit-learn
 ```
+## Model Weights and Reproducibility
+
+**Note:** Pre-trained model weights and generated checkpoints are not included in this repository due to their substantial storage requirements (approximately 90 GB).
+
+To reproduce the results, users are required to train the models locally using the provided source code, configurations, and training instructions.
+
+The repository provides the necessary implementation and experimental setup to facilitate independent training and evaluation.
+
+**Requirements:**
+- Download and prepare the required datasets.
+- Configure the training environment according to the provided instructions.
+- Execute the training scripts to generate the model weights and checkpoints.
+- Follow the evaluation instructions to reproduce the reported results.
+
+Please ensure that sufficient disk space, system memory, and computational resources are available before initiating training.
 
 ### 2. Running Experiments via Notebooks
 Each folder contains its self-contained Jupyter notebook to run feature caching, retrieval memory creation, training, and Karpathy metric evaluation:
